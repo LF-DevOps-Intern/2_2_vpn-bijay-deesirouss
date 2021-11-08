@@ -4,8 +4,8 @@
 - ### You should create certificates files for both server and client to connect to server and export client certificates to the client vm..
 	## commands used
 	### install dependencies and openvpn
-	- > sudo apt install -y epel-release
-	- > sudo apt install -y openvpn wget
+	- > sudo yum install -y epel-release
+	- > sudo yum install -y openvpn wget
 	### install Easy-RSA
 	- > wget -O /tmp/easyrsa https://github.com/OpenVPN/easy-rsa-old/archive/2.3.3.tar.gz
 	- > tar xfz /tmp/easyrsa
